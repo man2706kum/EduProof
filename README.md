@@ -1,6 +1,7 @@
 # EduProof
-EduProof is a secure, decentralized platform that allows students to apply for college admissions and verify their eligibility using anonymous Aadhaar and DigiLocker proofs. This project ensures privacy and authenticity while simplifying the application process for students.
+EduProof is a platform that allows students to apply for college admissions and verify their eligibility using anonymous Aadhaar and DigiLocker proofs. This project ensures privacy and authenticity while simplifying the application process for students.
 
+Note: This is a Hackathon project and is WIP.
 ## Features
 
 - **Anonymous Aadhaar Login**: Users can securely log in without revealing personal information using Anon-Aadhaar.
