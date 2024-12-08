@@ -1,21 +1,19 @@
-This is a [Next.js](https://nextjs.org/) project integrating [Anon Aadhaar](https://github.com/privacy-scaling-explorations/anon-aadhaar)
+# EduProof
+EduProof is a secure, decentralized platform that allows students to apply for college admissions and verify their eligibility using anonymous Aadhaar and DigiLocker proofs. This project ensures privacy and authenticity while simplifying the application process for students.
 
-## Getting Started
+## Features
 
-First, install the dependencies:
+- **Anonymous Aadhaar Login**: Users can securely log in without revealing personal information using Anon-Aadhaar.
+- **College Application**: Students can fill out and submit applications for their desired colleges.
+- **Eligibility Verification**: Verify eligibility using Anon-DigiLocker for secure and private document validation.
 
-```bash
-yarn install
-```
+## Building and running the repo
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/man2706kum/EduProof.git
+   cd EduProof
+2. `yarn install`
+3. `yarn dev`
+4. Open browser and navigate to `http://localhost:3000`
 
-Add your appId under `NEXT_PUBLIC_APP_ID` to your `.env.local`
-
-Then, run the development server:
-
-```bash
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can use our test file `./public/signed.pdf` with the password `test123` to generate a proof.
+You need to provide your valid Aadhar QR code for login.
